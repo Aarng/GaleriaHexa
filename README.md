@@ -1,2 +1,2 @@
-# GaleriaHexa
+# GaleriaHexagonal
  
