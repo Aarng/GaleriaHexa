@@ -9,36 +9,43 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
+    
+
     <h1 class="titulo">Galeria HEX</h1>
     <main class="gallery">  
         <div class="gallery__item">
-            <img src="/img/img_01.jpg" alt="Escaleras minimalistas">
+            <img src="/img/img_01.jpg" onclick="openfullimg(this.src)" alt="Escaleras minimalistas">
         </div>
         <div class="gallery__item">
-            <img src="/img/Img_02.jpg" alt="Cocina minimalista">
+            <img src="/img/Img_02.jpg" onclick="openfullimg(this.src)" alt="Cocina minimalista">
         </div>
         <div class="gallery__item">
-            <img src="/img/Img_03.jpg" alt="Oficina minimalista">
+            <img src="/img/Img_03.jpg" onclick="openfullimg(this.src)" alt="Oficina minimalista">
         </div>
         <div class="gallery__item">
-            <img src="/img/Img_04.jpg" alt="Living comedor y Cocina minimalista">
+            <img src="/img/Img_04.jpg" onclick="openfullimg(this.src)" alt="Living comedor y Cocina minimalista">
         </div>
         <div class="gallery__item">
-            <img src="/img/img_05.jpg" alt="Living minimalista">
+            <img src="/img/img_05.jpg" onclick="openfullimg(this.src)" alt="Living minimalista">
         </div>
         <div class="gallery__item">
-            <img src="/img/Img_06.jpg" alt="Mueble minimalista">
+            <img src="/img/Img_06.jpg" onclick="openfullimg(this.src)" alt="Mueble minimalista">
         </div>
         <div class="gallery__item">
-            <img src="/img/Img_07.jpg" alt="Sala de estar minimalista">
+            <img src="/img/Img_07.jpg" onclick="openfullimg(this.src)" alt="Sala de estar minimalista">
         </div>
         <div class="gallery__item">
-            <img src="/img/Img_08.jpg" alt="comedor minimalista">
+            <img src="/img/Img_08.jpg" onclick="openfullimg(this.src)" alt="comedor minimalista">
         </div>
         <div class="gallery__item">
-            <img src="/img/Img_09.jpg" alt="Pieza minimalista">
+            <img src="/img/Img_09.jpg" onclick="openfullimg(this.src)" alt="Pieza minimalista">
         </div>
 
     </main>
+    <div class="full-img" id="fullimgbox">
+        <img src="/img/img_01.jpg" id="fullimg" alt="">
+        <span onclick="closeImg(this.src)">X</span>
+    </div>
+        <script src="script.js"></script>
 </body>
 </html>
